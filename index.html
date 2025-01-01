@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Your Cart</h1>
+            <span class="cart-count">0 ITEMS</span>
+        </header>
+
+        <div class="main-content">
+            <div class="cart-section">
+                <div class="cart-items" id="cartItems">
+                    <!-- Cart items will be dynamically populated -->
+                </div>
+
+                <div class="coupon-section">
+                    <input type="text" placeholder="Enter coupon code [Coupon code: PRIDE10 (10% Discount)]"
+                        id="couponInput">
+                    <button class="coupon-btn">Apply Coupon</button>
+                </div>
+
+                <div class="cart-summary">
+                    <div class="summary-item">
+                        <span>Sub total</span>
+                        <span id="subtotal">₹0.00</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Tax (18%)</span>
+                        <span id="tax">₹0.00</span>
+                    </div>
+                    <div class="summary-item total">
+                        <span>Total</span>
+                        <span id="total">₹0.00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-section">
+                <h2>Contact Information</h2>
+                <form id="contactForm">
+                    <input type="text" placeholder="First & Last name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <input type="text" placeholder="Pin Code" required>
+                    <input type="text" placeholder="House No, Street Road" required>
+                    <button type="submit" class="purchase-btn">Complete Purchase</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="add-more-section">
+            <h2>Add More Love to Your Cart</h2>
+            <div class="product-list" id="allProductsList">
+                <!-- Products will be dynamically populated -->
+            </div>
+        </div>
+    </div>
+    <!-- Add type="module" to enable ES6 modules -->
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
