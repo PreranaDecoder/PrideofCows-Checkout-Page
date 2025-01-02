@@ -27,17 +27,8 @@ window.confirmOrder = async function () {
   try {
     const result = await processPayment(selectedMethod, orderDetails);
     if (result.success) {
-      // Show success message
-      document.querySelector(".main-content").innerHTML = `
-                <div class="order-confirmation animate-slide-down">
-                    <h2>Payment Successful!</h2>
-                    <p>Order ID: ${result.orderId}</p>
-                    <p>Timestamp: ${new Date(
-                      result.timestamp
-                    ).toLocaleString()}</p>
-                    <button class="return-btn" onclick="window.goToHome()">Return to Home</button>
-                </div>
-            `;
+      // Use the custom function to display the confirmation message
+      showOrderConfirmation(result.orderId, selectedMethod);
     }
   } catch (error) {
     showNotification(error.message || "Payment failed", "error");
@@ -121,6 +112,9 @@ function updateCartUI() {
   document.getElementById("subtotal").textContent = `₹${subtotal.toFixed(2)}`;
   document.getElementById("tax").textContent = `₹${tax.toFixed(2)}`;
   document.getElementById("total").textContent = `₹${total.toFixed(2)}`;
+
+  // Set global order total for reference
+  window.orderTotal = total;
 }
 
 init();

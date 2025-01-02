@@ -28,4 +28,18 @@ export const products = [
     image: "/assets/curd.png",
     pack: "400g Pack",
   },
+  {
+    id: "fatfreemilk",
+    name: "Fat Free Milk",
+    price: 130.0,
+    image: "/assets/fatfreemilk.png",
+    pack: "1 lit bottle",
+  },
+  {
+    id: "milkpowder",
+    name: "Whole Milk Powder",
+    price: 440.0,
+    image: "/assets/milkpowder.png",
+    pack: "280g",
+  },
 ];
