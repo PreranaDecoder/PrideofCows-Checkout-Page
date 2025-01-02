@@ -39,7 +39,7 @@ h1 {
 }
 
 .cart-count {
-  background-color: #3498db;
+  background-color: #193b61;
   color: white;
   padding: 8px 16px;
   border-radius: 20px;
@@ -113,12 +113,12 @@ h1 {
 
 .coupon-section input:focus {
   outline: none;
-  border-color: #3498db;
+  border-color: #193b61;
   box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
 }
 
 .coupon-btn {
-  background: #3498db;
+  background: #193b61;
   color: white;
   border: none;
   padding: 12px 25px;
@@ -183,7 +183,7 @@ h1 {
 
 .contact-section input:focus {
   outline: none;
-  border-color: #3498db;
+  border-color: #193b61;
   box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
 }
 
@@ -213,7 +213,7 @@ h1 {
   transform: translateX(-50%);
   width: 100px;
   height: 3px;
-  background: #3498db;
+  background: #193b61;
   border-radius: 2px;
 }
 
@@ -260,12 +260,12 @@ h1 {
 }
 
 .btn-primary {
-  background-color: #3498db;
+  background-color: #193b61;
   color: white;
 }
 
 .btn-primary:hover {
-  background-color: #2980b9;
+  background-color: #193b61;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -345,7 +345,7 @@ h1 {
 }
 
 .return-btn {
-  background: #3498db;
+  background: #193b61;
   color: white;
   padding: 15px 30px;
   border: none;
@@ -360,7 +360,7 @@ h1 {
 
 .return-btn:hover {
   transform: translateY(-2px);
-  background: #2980b9;
+  background: #193b61;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -394,7 +394,7 @@ h1 {
 }
 
 .payment-method.selected {
-  border-color: #3498db;
+  border-color: #193b61;
   background-color: #ebf5fb;
 }
 
@@ -476,7 +476,7 @@ h1 {
 
 /* Coupon Button Hover Animation */
 .coupon-btn {
-  background: #3498db;
+  background: #193b61;
   color: white;
   border: none;
   padding: 12px 25px;
@@ -489,7 +489,7 @@ h1 {
 .coupon-btn:hover {
   transform: translateY(-3px) scale(1.05);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  background-color: #2980b9;
+  background-color: #193b61;
 }
 
 /* Fix: Element Animations */
