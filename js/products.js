@@ -1,17 +1,16 @@
-// Separate products data
 export const products = [
   {
     id: "milk",
     name: "Premium Milk",
     price: 120.0,
-    image: "/assets/milk.png",
+    image: "/assets/milk.png", // Correct for Vercel
     pack: "1 Liter Bottle",
   },
   {
     id: "paneer",
     name: "Fresh Paneer",
     price: 280.0,
-    image: "/assets/paneer.png",
+    image: "/assets/paneer.png", // Correct for Vercel
     pack: "500g Pack",
   },
   {
